@@ -1,0 +1,15 @@
+[project]
+name = "control-lectures"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "gymnasium[classic-control,other]>=1.1.1",
+    "ipykernel>=6.29.5",
+    "numpy>=2.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "nbconvert>=7.16.6",
+]
+
